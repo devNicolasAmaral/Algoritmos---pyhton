@@ -1,0 +1,5 @@
+valor = int(input())
+taxa = int(input())
+tempo = int(input())
+prestação = valor + (valor * (taxa / 100) * tempo)
+print(prestação)

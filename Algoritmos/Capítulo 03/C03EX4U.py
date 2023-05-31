@@ -1,0 +1,5 @@
+print("Volume de uma esfera")
+print()
+raio = float(input("Apresente o raio da esfera: "))
+volume = (4/3) * 3.14159 * (raio ** 3)
+print("o volume da esfera é " + str("%.2f" % volume)) 

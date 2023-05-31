@@ -1,0 +1,6 @@
+print("Reajuste de Salário")
+print()
+sm = float(input("Apresente seu salário: "))
+pr = float(input("Apresente o percentual de reajuste: "))
+ns = sm + ((pr / 100) * sm)
+print("Seu novo salário é " + str(ns))
